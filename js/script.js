@@ -8,10 +8,10 @@ let navlist = document.querySelector('.navlist')
 
 menu.onclick = () => {
     menu.classList.toggle('bx-x')
-    navlis.classList.toggle('open')
+    navlist.classList.toggle('open')
 }
 
 window.onscroll = () => {
     menu.classList.remove('bx-x')
-    navlis.classList.remove('open')
+    navlist.classList.remove('open')
 } 

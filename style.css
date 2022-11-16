@@ -418,11 +418,11 @@ header.sticky{
     color: var(--main-color);
 }
 
-.contacat-form{
+.contact-form{
     position: relative;
 }
 
-.contacat-form, input{
+.contact-form input{
     width: 100%;
     padding: 14px;
     background: var(--bg-color);
@@ -434,7 +434,7 @@ header.sticky{
     margin: 10px 0;
 }
 
-.contacat-form, textarea{
+.contact-form textarea{
     width: 100%;
     padding: 14px;
     background: var(--bg-color);
@@ -448,7 +448,7 @@ header.sticky{
     height: 240px;
 }
 
-.contacat-form, .submit{
+.contact-form .submit{
     display: inline-block;
     font-size: 16px;
     background: var(--main-color);
@@ -457,7 +457,7 @@ header.sticky{
     transition: all .45s ease;
 }
 
-.contacat-form, .submit:hover{
+.contact-form .submit:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
